@@ -56,7 +56,7 @@ define(function (require, exports, module) {
       }
     } else { 
       //on alt+; pressed
-      if (event.keyCode === KeyEvent.DOM_VK_RETURN && event.altKey) {
+      if (event.keyCode === 186) {
         if (fileTypes(fileLang)) {
           var curCursorPos = editor.getCursorPos();
           editor.setCursorPos(cursorPos.line, currLine.length);
